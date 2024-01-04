@@ -23,4 +23,8 @@ pip install -r requirements.txt
 python download_glue.py
 ```
 # Usage
-📜 
+📜 Command for training and evaluating model
+```python
+
+sh run.sh
+```
