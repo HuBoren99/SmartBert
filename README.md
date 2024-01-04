@@ -28,3 +28,23 @@ python download_glue.py
 
 sh run.sh
 ```
+Please note that if you need to switch datasets, you'll need to modify both the parameters ```--data_dir``` and ```--task_name```.
+
+# Citation
+Please cite our paper if you find the method useful:
+```
+@inproceedings{ijcai2023p563,
+  title     = {SmartBERT: A Promotion of Dynamic Early Exiting Mechanism for Accelerating BERT Inference},
+  author    = {Hu, Boren and Zhu, Yun and Li, Jiacheng and Tang, Siliang},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-23}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Edith Elkind},
+  pages     = {5067--5075},
+  year      = {2023},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2023/563},
+  url       = {https://doi.org/10.24963/ijcai.2023/563},
+}
+```
