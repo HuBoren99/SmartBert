@@ -1,0 +1,27 @@
+python main.py \
+--cuda_id "1" \
+--lamada 0.04 \
+--eta1 0.01 \
+--eta2 0.05 \
+--t1 0.5 \
+--t2 0.55 \
+--special_training_mode True \
+--is_hard_weight True \
+--skipped_rate 0.5 \
+--seed 50 \
+--data_dir "./glue-data/RTE" \
+--task_name "RTE" \
+--output_path "./output/SmartBERT_{}_{}_{}_{}_{}_{}_{}" \
+--do_train True \
+--do_eval True \
+--model_name_or_path "bert-base-uncased" \
+--per_gpu_train_batch_size 16 \
+--first_stage_train_nums 5 \
+--second_stage_train_nums 4 \
+--learning_rate 2e-5 \
+--weight_decay 0.01 \
+--adam_epsilon 1e-8 \
+--warmup_steps 10  \
+--log_step 100 \
+--max_seq_length 128 \
+
