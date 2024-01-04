@@ -25,13 +25,13 @@ import urllib.request
 import zipfile
 
 TASKS = ["CoLA", "SST", "MRPC", "QQP", "STS", "MNLI", "QNLI", "RTE", "WNLI", "diagnostic", "MRPC"]
-TASK2PATH = {"CoLA":'https://dl.fbaipublicfiles.com/glue/data/CoLA.zip',
+TASK2PATH = {"RTE":'https://dl.fbaipublicfiles.com/glue/data/RTE.zip',
+             "CoLA":'https://dl.fbaipublicfiles.com/glue/data/CoLA.zip',
              "SST":'https://dl.fbaipublicfiles.com/glue/data/SST-2.zip',
              "QQP":'https://dl.fbaipublicfiles.com/glue/data/STS-B.zip',
              "STS":'https://dl.fbaipublicfiles.com/glue/data/QQP-clean.zip',
              "MNLI":'https://dl.fbaipublicfiles.com/glue/data/MNLI.zip',
              "QNLI":'https://dl.fbaipublicfiles.com/glue/data/QNLIv2.zip',
-             "RTE":'https://dl.fbaipublicfiles.com/glue/data/RTE.zip',
              "WNLI":'https://dl.fbaipublicfiles.com/glue/data/WNLI.zip',
              "diagnostic":'https://dl.fbaipublicfiles.com/glue/data/AX.tsv',
              "MRPC": "https://raw.githubusercontent.com/MegEngine/Models/master/official/nlp/bert/glue_data/MRPC/dev_ids.tsv"}
