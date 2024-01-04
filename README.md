@@ -4,6 +4,6 @@ BERT Inference](https://www.ijcai.org/proceedings/2023/0563.pdf).
 
 
 <p align="center">
-  <img src="https://github.com/HuBoren99/SmartBert/assets/133136668/2c7223d5-f8da-4341-8040-aa7f501d3a41" alt="image" width="200"/>
+  <img src="https://github.com/HuBoren99/SmartBert/assets/133136668/2c7223d5-f8da-4341-8040-aa7f501d3a41" alt="image" width="450"/>
 </p>
 
