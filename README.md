@@ -11,7 +11,7 @@ BERT Inference](https://www.ijcai.org/proceedings/2023/0563.pdf).
 💻 Recommand you to set up a Python virtual environment with the required dependencies as follows:
 ```python
 
-conda create -n py3.8 python=3.8
+conda create -n SmartBert python=3.8
 pip install -r requirements.txt
 ```
 
