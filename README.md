@@ -17,8 +17,10 @@ pip install -r requirements.txt
 
 # Datasets
 
-📖 All datasets can be downloaded from [here](https://gluebenchmark.com/tasks), or by running the following Python script.
+📖 We conducted experiments using the GLUE dataset(SST-2, MRPC, RTE, QNLI, QQP, MNLI, CoLA). All datasets can be downloaded from [here](https://gluebenchmark.com/tasks), or by running the following Python script.
 ```python
 
 python download_glue.py
 ```
+# Usage
+📜 
